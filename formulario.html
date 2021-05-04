@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" type="text/css" href="formsestilos.css" />
+    <title> Formulario de consulta </title>
+    
+</head>
+
+<body>
+    
+    <form action="mailto:atropeano@murialdo.edu.ar" method="post" enctype="text/plain">
+
+Usuario <input type = "text" name="Nombre">
+<br>
+
+Contraseña <input type="password" name="nombre">
+<br>
+<br>
+Motivo de su consulta
+<select name="Consulta sugerida">
+    <option value = "Venta Mayorista">Venta Mayorista</option>
+    <option value = "Puntos de venta">Puntos de venta</option>
+    <option value ="Envíos al interior del País">Envíos al interior del País</option>
+    <option value= "Formas de pago">Formas de pago</option>
+    <option value= "Otros">Formas de pago</option>
+
+    </select>
+    <br>
+    <br>
+    ¿Como prefiere recibir la información? 
+    <br>
+  
+  <input type="radio" id="WhatsApp" name="Contacto" value="WhatsApp" >
+   <label for= "WhatsApp">WhatsApp</label>
+   <br>
+     <input type="radio" id="Instagram" name="Contacto" value="Instagram">
+     <label for= "Instagram">Instagram</label>
+    <br>  
+  <input type="radio" id="mail" name="Contacto" value="mail">
+    <label for= "mail">Mail</label>
+
+    <br>
+    <br>
+    <textarea name="comentario" rows="10" cols="40">Escriba aquí el motivo de tu consulta</textarea>
+    <input type="submit" value="Enviar">
+<br>
+    
+    </form>
+</body>
+</html>
